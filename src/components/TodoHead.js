@@ -46,7 +46,7 @@ function TodoHead() {
 
     return (
         <TodoHeadBlock>
-            <h1>{YEAR}년 {MONTH}월 {DATE}일</h1>
+            <h1>{YEAR}년 {MONTH +1}월 {DATE}일</h1>
             <div className="day">{DAY}요일</div>
             <div className="tasks-left">할 일 {undoneTasks.length}개 남음</div>
         </TodoHeadBlock>
